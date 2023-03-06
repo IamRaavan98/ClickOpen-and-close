@@ -1,0 +1,35 @@
+body{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.model{
+    font-size: 70px;
+  
+    margin: 0;
+}
+.button{
+    padding: 20px 20px;
+    font-size: 40px;
+    background-color: beige;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.top{
+    text-align: center;  
+    justify-content: center;
+    margin-top: 50px;
+   
+}
+.removeModelContainer{
+
+float: right;
+cursor: pointer;
+}
